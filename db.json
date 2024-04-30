@@ -79,15 +79,15 @@
 			"is_activated": true
 		},
 		{
-			"name": "Bank Negara Indonesia",
-			"code": "BNI",
+			"name": "Bank Mandiri",
+			"code": "MANDIRI",
 			"country": "ID",
 			"currency": "IDR",
 			"is_activated": true
 		},
 		{
-			"name": "Bank Mandiri",
-			"code": "MANDIRI",
+			"name": "Bank Negara Indonesia",
+			"code": "BNI",
 			"country": "ID",
 			"currency": "IDR",
 			"is_activated": true
@@ -100,15 +100,15 @@
 			"is_activated": true
 		},
 		{
-			"name": "Bank Sahabat Sampoerna",
-			"code": "SAHABAT_SAMPOERNA",
+			"name": "Bank Rakyat Indonesia",
+			"code": "BRI",
 			"country": "ID",
 			"currency": "IDR",
 			"is_activated": true
 		},
 		{
-			"name": "Bank Rakyat Indonesia",
-			"code": "BRI",
+			"name": "Bank Sahabat Sampoerna",
+			"code": "SAHABAT_SAMPOERNA",
 			"country": "ID",
 			"currency": "IDR",
 			"is_activated": true
@@ -133,97 +133,6 @@
 			"country": "ID",
 			"currency": "IDR",
 			"is_activated": true
-		},
-		{
-			"name": "The Development Bank of Singapore",
-			"code": "DBS",
-			"country": "ID",
-			"currency": "USD",
-			"is_activated": true
-		},
-		{
-			"name": "The Development Bank of Singapore",
-			"code": "DBS",
-			"country": "ID",
-			"currency": "IDR",
-			"is_activated": false
-		},
-		{
-			"name": "Bank Neo Commerce",
-			"code": "BNC",
-			"country": "ID",
-			"currency": "IDR",
-			"is_activated": true
-		},
-		{
-			"name": "Woori Bank Viet Nam",
-			"code": "WOORI",
-			"country": "VN",
-			"currency": "VND",
-			"is_activated": false
-		},
-		{
-			"name": "Viet Capital Bank",
-			"code": "VIETCAPITAL",
-			"country": "VN",
-			"currency": "VND",
-			"is_activated": false
-		},
-		{
-			"name": "Public Vietnam Commercial Bank",
-			"code": "PV",
-			"country": "VN",
-			"currency": "VND",
-			"is_activated": false
-		},
-		{
-			"name": "Maritime Bank Viet Nam",
-			"code": "MSB",
-			"country": "VN",
-			"currency": "VND",
-			"is_activated": false
-		},
-		{
-			"name": "Vietnam Prosperity Commercial Bank",
-			"code": "VPB",
-			"country": "VN",
-			"currency": "VND",
-			"is_activated": false
-		},
-		{
-			"name": "AmBank Malaysia",
-			"code": "AMBANK",
-			"country": "MY",
-			"currency": "MYR",
-			"is_activated": false
-		},
-		{
-			"name": "Standard Chartered Bank",
-			"code": "STANDARD_CHARTERED",
-			"country": "TH",
-			"currency": "THB",
-			"is_activated": false
-		},
-		{
-			"name": "KEB Hana Bank",
-			"code": "HANA",
-			"country": "ID",
-			"currency": "IDR",
-			"is_activated": false
-		},
-		{
-			"name": "Bank Muamalat",
-			"code": "MUAMALAT",
-			"country": "ID",
-			"currency": "IDR",
-			"is_activated": false
-		},
-		{
-			"name": "Bank Transfer",
-			"code": "BANK_TRANSFER",
-			"country": "PH",
-			"currency": "PHP",
-			"is_activated": false
 		}
 	],
 	"profile": {
