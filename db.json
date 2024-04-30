@@ -1,52 +1,229 @@
 {
 	"usage": [
-		{ 
+		{
 			"id": "01",
 			"day": "Senin",
 			"date": "11/01/2023",
-			"value": 4.56 
+			"value": 4.56
 		},
-		{ 
+		{
 			"id": "01",
 			"day": "Selasa",
 			"date": "11/02/2023",
-			"value": 7.89 
+			"value": 7.89
 		},
-		{ 
+		{
 			"id": "01",
 			"day": "Rabu",
 			"date": "11/02/2023",
 			"value": 7.89
 		},
-		{ 
+		{
 			"id": "01",
 			"day": "Kamis",
 			"date": "11/02/2023",
 			"value": 5.34
 		},
-		{ 
+		{
 			"id": "01",
 			"day": "Jumat",
 			"date": "11/02/2023",
 			"value": 4
 		},
-		{ 
+		{
 			"id": "01",
 			"day": "Minggu",
 			"date": "11/02/2023",
 			"value": 3.89
 		}
 	],
-	"comments": [
+	"payment": [
 		{
-			"id": 1,
-			"body": "some comment",
-			"postId": 1
+			"reference_id": "order-id-1666420204",
+			"type": "DYNAMIC",
+			"currency": "IDR",
+			"channel_code": "ID_DANA",
+			"amount": 10000,
+			"expires_at": "2024-05-01T19:36:55.683022Z",
+			"metadata": null,
+			"business_id": "655ad2f9e9a2b0317956af1c",
+			"id": "qr_211be322-ecd5-48c8-829b-40e173dbf5b4",
+			"created": "2024-04-29T19:36:55.977906Z",
+			"updated": "2024-04-29T19:36:55.977906Z",
+			"qr_string": "00020101021226570011ID.DANA.WWW011893600915060828094202096082809420303UKE51440014ID.CO.QRIS.WWW0215ID20243152837780303UKE5204899953033605405100005802ID5909L-Connect6012Kab. Bandung61054026762720115qCgD4zDvsN9dr4m60490011ID.DANA.WWW0425MER2021071400774509608641050116304BF1A",
+			"status": "ACTIVE"
 		},
 		{
-			"id": 2,
-			"body": "some comment",
-			"postId": 1
+			"id": "8b71679f-e74f-4cbe-aecc-89e665ac6757",
+			"owner_id": "655ad2f9e9a2b0317956af1c",
+			"external_id": "va-1475804036623",
+			"account_number": "132819999256050",
+			"bank_code": "BRI",
+			"merchant_code": "13281",
+			"name": "LConnect",
+			"is_closed": true,
+			"expected_amount": 50000,
+			"expiration_date": "2024-05-27T17:00:00.000Z",
+			"is_single_use": false,
+			"status": "PENDING",
+			"currency": "IDR",
+			"country": "ID"
+		}
+	],
+	"paymentMethods": [
+		{
+			"name": "Bank Central Asia",
+			"code": "BCA",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "Bank Negara Indonesia",
+			"code": "BNI",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "Bank Mandiri",
+			"code": "MANDIRI",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "Bank Permata",
+			"code": "PERMATA",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "Bank Sahabat Sampoerna",
+			"code": "SAHABAT_SAMPOERNA",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "Bank Rakyat Indonesia",
+			"code": "BRI",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "Bank CIMB Niaga",
+			"code": "CIMB",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "Bank Syariah Indonesia",
+			"code": "BSI",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "Bank Jabar Banten",
+			"code": "BJB",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "The Development Bank of Singapore",
+			"code": "DBS",
+			"country": "ID",
+			"currency": "USD",
+			"is_activated": true
+		},
+		{
+			"name": "The Development Bank of Singapore",
+			"code": "DBS",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": false
+		},
+		{
+			"name": "Bank Neo Commerce",
+			"code": "BNC",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": true
+		},
+		{
+			"name": "Woori Bank Viet Nam",
+			"code": "WOORI",
+			"country": "VN",
+			"currency": "VND",
+			"is_activated": false
+		},
+		{
+			"name": "Viet Capital Bank",
+			"code": "VIETCAPITAL",
+			"country": "VN",
+			"currency": "VND",
+			"is_activated": false
+		},
+		{
+			"name": "Public Vietnam Commercial Bank",
+			"code": "PV",
+			"country": "VN",
+			"currency": "VND",
+			"is_activated": false
+		},
+		{
+			"name": "Maritime Bank Viet Nam",
+			"code": "MSB",
+			"country": "VN",
+			"currency": "VND",
+			"is_activated": false
+		},
+		{
+			"name": "Vietnam Prosperity Commercial Bank",
+			"code": "VPB",
+			"country": "VN",
+			"currency": "VND",
+			"is_activated": false
+		},
+		{
+			"name": "AmBank Malaysia",
+			"code": "AMBANK",
+			"country": "MY",
+			"currency": "MYR",
+			"is_activated": false
+		},
+		{
+			"name": "Standard Chartered Bank",
+			"code": "STANDARD_CHARTERED",
+			"country": "TH",
+			"currency": "THB",
+			"is_activated": false
+		},
+		{
+			"name": "KEB Hana Bank",
+			"code": "HANA",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": false
+		},
+		{
+			"name": "Bank Muamalat",
+			"code": "MUAMALAT",
+			"country": "ID",
+			"currency": "IDR",
+			"is_activated": false
+		},
+		{
+			"name": "Bank Transfer",
+			"code": "BANK_TRANSFER",
+			"country": "PH",
+			"currency": "PHP",
+			"is_activated": false
 		}
 	],
 	"profile": {
