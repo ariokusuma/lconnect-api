@@ -135,6 +135,32 @@
 			"is_activated": true
 		}
 	],
+	"tokenNominal": [
+		{
+			"id": "01",
+			"price": "20000",
+			"amount": "3.77",
+			"currency": "IDR"
+		},
+		{
+			"id": "02",
+			"price": "50000",
+			"amount": "9.43",
+			"currency": "IDR"
+		},
+		{
+			"id": "03",
+			"price": "100000",
+			"amount": "18.86",
+			"currency": "IDR"
+		},
+		{
+			"id": "04",
+			"price": "200000",
+			"amount": "37.73",
+			"currency": "IDR"
+		}
+	],
 	"profile": {
 		"name": "typicode"
 	}
