@@ -162,6 +162,7 @@
 		}
 	],
 	"custNumber":{
+		"status": 1,
 		"id": "04",
 		"customerNumber": 123456,
 		"customerMeterNumber": 123456,
