@@ -161,6 +161,14 @@
 			"currency": "IDR"
 		}
 	],
+	"custNumber":{
+		"id": "04",
+		"customerNumber": 123456,
+		"customerMeterNumber": 123456,
+		"name": "Andi Ambarita",
+		"address": "Jalan Telekomunikasi No.1",
+		"currency": "2R1"
+	},
 	"profile": {
 		"name": "typicode"
 	}
