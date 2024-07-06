@@ -164,6 +164,7 @@
 	"custNumber":{
 		"status": 1,
 		"id": "04",
+		"email": "kedaireka@gmail.com",
 		"customerNumber": 123456,
 		"customerMeterNumber": 83746274,
 		"name": "Andi Ambarita",
