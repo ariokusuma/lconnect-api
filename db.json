@@ -1,41 +1,16 @@
 {
-	"usage": [
+
+	"tokenData": [
 		{
+			"customerNumber": 123456,
+			"customerMeterNumber": 83746274, 
+			"name": "Andi Ambarita",
 			"id": "01",
-			"day": "Senin",
-			"date": "11/01/2023",
-			"value": 4.56
-		},
-		{
-			"id": "01",
-			"day": "Selasa",
-			"date": "11/02/2023",
-			"value": 7.89
-		},
-		{
-			"id": "01",
-			"day": "Rabu",
-			"date": "11/02/2023",
-			"value": 7.89
-		},
-		{
-			"id": "01",
-			"day": "Kamis",
-			"date": "11/02/2023",
-			"value": 5.34
-		},
-		{
-			"id": "01",
-			"day": "Jumat",
-			"date": "11/02/2023",
-			"value": 4
-		},
-		{
-			"id": "01",
-			"day": "Minggu",
-			"date": "11/02/2023",
-			"value": 3.89
+			"value": 4.56,
+			"address": "Jalan Telekomunikasi No.1",
+			"rateIndex": "2R1"
 		}
+
 	],
 	"payment": [
 		{
